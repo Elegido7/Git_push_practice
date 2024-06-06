@@ -1,0 +1,172 @@
+/*Universal Selector (*) -Applies to all elements*/
+* {
+    text-indent: 2%;
+    padding: 1px;
+  }
+  /* Pseudo classes*/
+  nav {
+    padding: 20px;
+  }
+  nav a {
+    font-size: 20px;
+    margin-right: 50px;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 20px;
+  }
+  
+  /* unvisited link */
+  Nav a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  Nav a:visited {
+    color: red;
+  }
+  
+  /* mouse over element */
+  nav a:hover {
+    background-color: chartreuse;
+  }
+  /* selected link */
+  nav a:active {
+    color: #0000ff;
+  }
+  
+  h1 {
+    color: red;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+  p {
+    text-align: justify;
+    font-family: palatino;
+    justify-content: ;
+  }
+  .den {
+    color: purple;
+    font-style: italic;
+    font-family: Palatino;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 5%;
+    text-decoration: underline;
+  }
+  .go {
+    text-decoration-line: underline;
+    color: crimson;
+    font-size: 30px;
+  }
+  #rain {
+    background-color: antiquewhite;
+  }
+  /*multiple selectors*/
+  h2,
+  p {
+    font-family: palatino;
+    color: blue;
+  }
+  .head1 {
+    color: purple;
+    font-weight: bolder;
+  }
+  .head3 {
+    color: blue;
+  }
+  .head1,
+  .head3 {
+    font-style: italic;
+    font-size: 50px;
+    text-decoration: underline;
+    letter-spacing: 4px;
+  }
+  .par1,
+  #par2 {
+    font-family: "Lucida Sans", "Lucida Sans Regular";
+    padding: 2px;
+    text-align: justify;
+    color: green;
+    word-spacing: 8px;
+    line-height: 30px;
+  }
+  /*Descendant Combinator*/
+  .kazi section p {
+    background-color: rgb(192, 253, 100);
+    line-height: 25px;
+  }
+  .kazi article p {
+    background-color: aquamarine;
+  }
+  /*child combinator (>)*/
+  Article > p {
+    background-color: aquamarine;
+    font-family: palatino, "Times New Roman", Times, serif;
+    font-style: oblique;
+    text-align: justify;
+    font-style: italic;
+  }
+  /*Adjacent Sibling Combinator:*/
+  section h1 + p {
+    color: darkblue;
+    font-size: 20px;
+    background-color: yellow;
+  }
+  /*General Sibling Combinator*/
+  .pat h1 ~ p {
+    background-color: aquamarine;
+    font-size: 22px;
+    color: black;
+    font-family: ;
+  }
+  #box {
+    padding: 30px;
+    background-color: antiquewhite;
+    color: purple;
+    height: 50%;
+    width: 80%;
+  }
+  #jen {
+    margin: 30px;
+    background-color: bisque;
+    color: black;
+  }
+  .mak {
+    height: 130px;
+    width: 200px;
+    padding: 20px;
+    background-color: aquamarine;
+    border: 2px dashed black;
+    border-radius: 30%;
+  }
+  /*
+  div * {
+    background-color: blanchedalmond;
+    border: dotted blue;
+    color: black;
+    padding: 4px;
+    border-radius: 20px;
+  }*/
+  
+  /*display block*/
+  .block {
+    display: flex;
+    padding: 10px;
+  }
+  .navline {
+    text-decoration: none;
+    list-style: none;
+    line-height: 30px ;
+    display: inline-flex;
+  }
+  #flexlist{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .flex {
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    margin: 12px;
+  }
